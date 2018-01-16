@@ -9,9 +9,9 @@
     "default_popup": "options.html"
   },
   "icons":{
-    "16":"Hourglass-icon.png",
-    "48":"Hourglass-icon.png",
-    "128":"icon-128.png"
+    "16":"Pictures/Hourglass-icon.png",
+    "48":"Pictures/Hourglass-icon.png",
+    "128":"Pictures/icon-128.png"
   },
   "chrome_url_overrides" : {
     "newtab": "newtab.html"
