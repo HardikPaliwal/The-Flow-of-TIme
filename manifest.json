@@ -1,0 +1,23 @@
+
+  {
+  "manifest_version": 2,
+
+  "name": "The Flow Of Time",
+  "description": "Allows user to customize their New Tab Page",
+  "version": "1.2",
+"browser_action": {
+    "default_popup": "PopUp/options.html"
+  },
+  "icons":{
+    "16":"Pictures/Hourglass-icon.png",
+    "48":"Pictures/Hourglass-icon.png",
+    "128":"Pictures/icon-128.png"
+  },
+  "chrome_url_overrides" : {
+    "newtab": "NewTab/newtab.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
