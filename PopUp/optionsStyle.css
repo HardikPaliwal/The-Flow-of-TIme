@@ -27,7 +27,7 @@ body{
 	border-radius: 4px;
 	padding: 5px 5px 20px;
 }
-div:nth-of-type(1){
+div>div:nth-of-type(1){
 	color:black;
 	font-size: 4vh;
 	text-align: center;

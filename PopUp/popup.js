@@ -65,6 +65,8 @@ function  handler(){
 	}
 	else { localStorage.setItem("showAge", true); 
 	}
+
+	$("div:nth-of-type(1)").fadeOut (1000);
 	
 }
 

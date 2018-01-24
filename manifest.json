@@ -16,6 +16,7 @@
   "chrome_url_overrides" : {
     "newtab": "NewTab/newtab.html"
   },
+  "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
   "permissions": [
     "activeTab",
     "storage"
