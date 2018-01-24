@@ -66,7 +66,10 @@ function  handler(){
 	else { localStorage.setItem("showAge", true); 
 	}
 
-	$("div:nth-of-type(1)").fadeOut (1000);
+	$("div:nth-of-type(1)").slideUp(500);
+	$("#saveSettings").val("Saved Settings")
+	.css({"background-color": "white", "color": "black"});
+	$(document).css("background-color", "black");
 	
 }
 
